@@ -4,7 +4,7 @@ import Main from "./components/Main/Main";
 
 function App() {
   return (
-    <div className="bg-blue-50 w-screen h-screen flex justify-between">
+    <div className="w-screen h-screen flex justify-between">
       <AsideLeft></AsideLeft>
       <Main></Main>
       <AsideRight></AsideRight>

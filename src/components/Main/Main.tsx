@@ -4,7 +4,7 @@ type Props = {};
 
 const Main = (props: Props) => {
   return (
-    <div className="bg-gray-500 grow">
+    <div className="grow">
       <header className="">header</header>
 
       <main>main</main>

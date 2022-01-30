@@ -3,7 +3,13 @@ import React from "react";
 interface Props {}
 
 function AsideLeft(props: Props) {
-  return <aside className="bg-orange-500 flex-none w-20">aside left</aside>;
+  return (
+    <aside className="flex-none w-20 rounded-md shadow-lg shadow-gray-200">
+      <div className=" shadow mx-2 mt-5 rounded-full">
+        <img src="/todo-logo.png" alt="" className=" rounded-full" />
+      </div>
+    </aside>
+  );
 }
 
 export default AsideLeft;
