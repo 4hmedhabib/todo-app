@@ -1,25 +1,13 @@
-import React from 'react';
+import React from "react";
+import { AsideLeft, AsideRight } from "./components";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
-    <div >
-      
-      <header>
-          header
-      </header> 
-
-      <aside>
-    aside left
-      </aside>
-
-        <main>
-            main
-        </main>
-
-      <aside>
-        aside right
-      </aside>
-        
+    <div className="bg-blue-50 w-screen h-screen flex justify-between">
+      <AsideLeft></AsideLeft>
+      <Main></Main>
+      <AsideRight></AsideRight>
     </div>
   );
 }
