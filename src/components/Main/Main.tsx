@@ -1,5 +1,5 @@
 import Header from "./Header";
-import Content from "./Content/Content";
+import Content from "./Contents/Content";
 
 const Main = () => {
   return (
