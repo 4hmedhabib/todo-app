@@ -1,14 +1,12 @@
-import React from "react";
+import Header from "./Header";
+import Content from "./Contents/Content";
 
-type Props = {};
-
-const Main = (props: Props) => {
+const Main = () => {
   return (
-    <div className="grow">
-      <header className="">header</header>
-
-      <main>main</main>
-    </div>
+    <section id="main" className="grow font-nunito">
+      <Header></Header>
+      <Content></Content>
+    </section>
   );
 };
 

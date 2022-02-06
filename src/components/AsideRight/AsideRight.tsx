@@ -1,9 +1,11 @@
-import React from "react";
-
-interface Props {}
-
-function AsideRight(props: Props) {
-  return <aside className="flex-none w-80">aside right</aside>;
-}
+const AsideRight = () => {
+  return (
+    // Right Side
+    <aside
+      id="right"
+      className="hidden lg:block lg:w-80 xl:w-96 shadow-gray-200 shadow-lg rounded-tr-lg bg-white"
+    ></aside>
+  );
+};
 
 export default AsideRight;
